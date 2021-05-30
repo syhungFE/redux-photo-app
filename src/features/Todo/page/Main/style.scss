@@ -1,0 +1,38 @@
+.todo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin : 3rem auto;
+    &-page{
+        .banner__title{
+            color : #333 !important;
+        }
+    }
+    &-title{
+        text-align: center;
+    }
+    &-form{
+        width: 30%;
+        border-right: 1px solid #333;
+        &_add{
+            margin : 2rem;
+        }
+    }
+    &-list{
+        width: 70%;
+        &_content{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .request{
+                width: 30%;
+            }
+            .in-progress{
+                width: 30%;
+            }
+            .done{
+                width: 30%;
+            }
+        }
+    }
+}
