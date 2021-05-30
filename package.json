@@ -1,0 +1,62 @@
+{
+  "name": "redux-photo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.4.1",
+    "chroma-js": "^2.1.2",
+    "firebase": "^8.6.2",
+    "formik": "^2.2.8",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "query-string": "^7.0.0",
+    "react": "^16.13.1",
+    "react-alert": "^7.0.3",
+    "react-alert-template-basic": "^1.0.2",
+    "react-devtools": "^4.13.4",
+    "react-dom": "^16.13.1",
+    "react-firebaseui": "^5.0.2",
+    "react-grid-layout": "^1.2.5",
+    "react-pagination": "^1.0.0",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-select": "^3.2.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.1.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "sh ./deploy-surge.sh"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
